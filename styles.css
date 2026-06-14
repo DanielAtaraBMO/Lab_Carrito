@@ -1,0 +1,86 @@
+#container-badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: #eeae1d;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+#badge-id {
+  width: 5%;
+}
+#compras {
+  background-color: #e5d8c1;
+  border: 2px solid #222222;
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.tarjeta {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: #eeae1d;
+  border-bottom: 15px solid #eeae1d;
+  border-radius: 15px;
+  margin: 2%;
+}
+#separar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#Carrito {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeae1d;
+  border: 2px solid #222222;
+  border-radius: 12px;
+}
+
+.elementos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: #e5d8c1;
+  border: 2px solid #222222;
+  border-radius: 12px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.btn-eliminar {
+  background-color: #222222;
+  color: white;
+  border: 10px solid #222222;
+  border-radius: 12px;
+}
+
+#btn-vaciar {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background-color: #222222;
+  color: white;
+  border: 10px solid #222222;
+  border-radius: 12px;
+}
+
+#total-carrito {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
